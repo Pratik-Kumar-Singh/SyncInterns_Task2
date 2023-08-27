@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Subjects</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        Welcome here and play Quiz Online
+    </div>
+    <div class="question">
+        <h2 class="Question">Your first ques</h2>
+        <input type="radio" name="myAns" id="ans1" class="answer"> <label for="ans1" id="option1"></label><br>
+        <input type="radio" name="myAns" id="ans2" class="answer"> <label for="ans2" id="option2"></label><br>
+        <input type="radio" name="myAns" id="ans3" class="answer"> <label for="ans3" id="option3"></label><br>
+        <input type="radio" name="myAns" id="ans4" class="answer"> <label for="ans4" id="option4"></label><br>
+        <button id="submit">Submit</button>
+        <div id="showScore" class="scoreArea"></div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
